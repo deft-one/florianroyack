@@ -1,0 +1,75 @@
+.skillsetContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5em 0 0 0;
+}
+
+.servicesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service, .specialties, .zillowContainer {
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25);
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.service, .specialties {
+    position: relative;
+}
+
+.service::after, .specialties::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    border: 20px solid transparent;
+    border-left: 20px solid rgb(254, 114, 95);
+    border-top: 20px solid rgb(254, 114, 95);
+    border-top-left-radius: 1em;
+    z-index: 999;
+}
+
+.h3, .p {
+    max-width: 300px;
+    text-align: center;
+}
+
+.h3 {
+    padding-top: 1em;
+}
+
+.p {
+    padding: 1em;
+}
+
+.specialties {
+    padding-bottom: 1em;
+}
+
+.specialty {
+    width: 225px;
+    margin: 0 auto;
+    padding: 0.25em 0;
+    list-style-image: url('https://florianroyack.com/images/checkmark.svg');
+    list-style-position: inside;
+    font-size: 1.25em;
+}
+
+.imgZillow {
+    display: block;
+    width: 100%;
+    padding: 1em 1em 0 1em;
+    height: auto;
+}
+
+@media screen and (min-width: 900px) {
+    
+}

@@ -1,0 +1,16 @@
+.pGlob {
+    font-size: 1.15em;
+}
+
+.h3Glob {
+    font-size: 1.5em;
+    color: rgb(29, 197, 172);
+}
+
+.h2Glob {
+    font-size: 1.75em;
+    line-height: 1.25;
+    letter-spacing: 0.075em;
+    text-align: center;
+    color: rgb(254, 114, 95);
+}

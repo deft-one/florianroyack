@@ -1,0 +1,42 @@
+.footer {
+    padding: 2em 0;
+    background-color: rgb(29, 197, 172);
+}
+
+.footerFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerLogo, .socialContainer {
+    margin: 1em;
+}
+
+.socialContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+
+.socialLink {
+    margin: 0.75em;
+}
+
+.socialIcon {
+    display: block;
+    width: 2em;
+    height: auto;
+}
+
+.copyright, .designedBy {
+    padding: 1em;
+    text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+    .footerFlex {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

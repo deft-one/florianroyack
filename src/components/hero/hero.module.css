@@ -1,0 +1,81 @@
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://florianroyack.com/images/aerial-1400x859-gradient.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-bottom: 3em;
+    min-height: 90vh;
+}
+
+.socialContainer {
+    display: flex;
+    align-self: flex-start;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-bottom-right-radius: 0.5em;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.socialContainer > a {
+    margin: 0.75em;
+}
+
+.socialContainer > a > img {
+    display: block;
+    width: 2em;
+    height: auto;
+}
+
+.h1, .phoneNumber {
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.h1 {
+    max-width: 900px;
+    margin-top: 0.75em;
+    padding: 0 0.25em;
+    font-size: 3em;
+    line-height: 1.25;
+    color: #1dc5ac;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0, 0.5), 
+                 1px 1px 0px #077363, 
+                -1px -1px 0px #6cf8e3;
+}
+
+.phoneNumber {
+    margin-top: 2em;
+    padding: 0 0.5em;
+    font-size: 1.5em;
+    line-height: 1.5;
+    letter-spacing: 0.075em;
+    color: #fe725f;
+    text-shadow: 1px 1px 0px #7d271b, 
+                -1px -1px 0px #ffb6ad, 
+                 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.statement {
+    max-width: 500px;
+    margin: 2em 1em 0 1em;
+    padding: 1em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0.5em;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 2px 2px 2px rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (min-width: 600px) {
+    .h1 {
+        font-size: 4.5em;
+        margin-top: 0.25em;
+    }
+    .phoneNumber {
+        font-size: 2em;
+        margin-top: 1em;
+    }
+}
