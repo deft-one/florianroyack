@@ -13,7 +13,7 @@ const Contact = () => {
                     <p className={`${styles.p} ${globals.pGlob}`}>(813) 753-9447 (Alt)</p>
                 </div>
                 <div className={styles.mapContainer} id="map">
-                    <iframe className={styles.map} title="map" loading="lazy" allowfullscreen="" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJMacFBItq6IgRjj4Fet06FR0&amp;key=AIzaSyCHlREBDG3ZG1G48VxIoRJnXS-3JzcAG04"></iframe>
+                    <iframe className={styles.map} title="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6987.03871906457!2d-82.542552!3d28.882911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e86a8b0405a731%3A0x1d153add7a053e8e!2s6460%20W%20Gulf%20to%20Lake%20Hwy%2C%20Crystal%20River%2C%20FL%2034429!5e0!3m2!1sen!2sus!4v1660865705379!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
             <section className={styles.formContainer}>
