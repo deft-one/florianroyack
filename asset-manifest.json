@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/florianroyack/static/css/main.9b00f9d9.chunk.css",
-    "main.js": "/florianroyack/static/js/main.4e63237b.chunk.js",
-    "main.js.map": "/florianroyack/static/js/main.4e63237b.chunk.js.map",
+    "main.css": "/florianroyack/static/css/main.7de60f66.chunk.css",
+    "main.js": "/florianroyack/static/js/main.d30733e1.chunk.js",
+    "main.js.map": "/florianroyack/static/js/main.d30733e1.chunk.js.map",
     "runtime-main.js": "/florianroyack/static/js/runtime-main.71395c3c.js",
     "runtime-main.js.map": "/florianroyack/static/js/runtime-main.71395c3c.js.map",
     "static/js/2.e24856e9.chunk.js": "/florianroyack/static/js/2.e24856e9.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.fc14d92f.chunk.js": "/florianroyack/static/js/3.fc14d92f.chunk.js",
     "static/js/3.fc14d92f.chunk.js.map": "/florianroyack/static/js/3.fc14d92f.chunk.js.map",
     "index.html": "/florianroyack/index.html",
-    "static/css/main.9b00f9d9.chunk.css.map": "/florianroyack/static/css/main.9b00f9d9.chunk.css.map",
+    "static/css/main.7de60f66.chunk.css.map": "/florianroyack/static/css/main.7de60f66.chunk.css.map",
     "static/js/2.e24856e9.chunk.js.LICENSE.txt": "/florianroyack/static/js/2.e24856e9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.71395c3c.js",
     "static/js/2.e24856e9.chunk.js",
-    "static/css/main.9b00f9d9.chunk.css",
-    "static/js/main.4e63237b.chunk.js"
+    "static/css/main.7de60f66.chunk.css",
+    "static/js/main.d30733e1.chunk.js"
   ]
 }
